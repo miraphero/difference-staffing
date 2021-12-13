@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference Staffing</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@300;400&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9776ecd62e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header-area bg-dark">
+        <div class="container py-2">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand nav-brand" href="#">DIFFERENCE <span class="d-block">STAFFING</span> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" id="active" href="index.html">HOME</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" id="nav-link1" href="#specialist">OUR SPECIALISTS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" id="nav-link2" href="contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+
+                    <div class="pulse-container d-flex my-2">
+                        <div class="pulse-1 ">
+                            <a class="pulse-button button-1" data-bs-toggle="modal" data-bs-target="#purchaseModal"
+                                data-backdrop="static" data-keyboard="false" href="">LOOKING TO HIRE?</a>
+                        </div>
+                        <div class="pulse-2">
+
+                            <a class="pulse-button button-1" data-bs-toggle="modal" data-bs-target="#purchaseModal"
+                                data-backdrop="static" data-keyboard="false" href="">LOOKING TO HIRE?</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Navigaation Bar Ends -->
+
+
+
+    <!-- Modal -->
+
+    <div class="container bg-info">
+
+        <div class="modal fade" id="purchaseModal" tabindex="-1">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content modal-main-content" style="background-color: #1896FE;">
+                    <!-- <div class="modal-header"> -->
+                    <!-- <h4 class="modal-title">LOOKING TO WORK?</h4> -->
+                    <button type="button" class=" cross-btn" data-bs-dismiss="modal"><i
+                            class="fas fa-times"></i></button>
+                    <!-- </div> -->
+
+                    <div class="modal-body modal-main-body">
+                        <div class="container px-5 pb-4">
+                            <p class="modal-title">LOOKING TO WORK?</p>
+                            <h6 class="pb-2 pt-3">Fill in the form below correctly and we would contact you as soon as
+                                possible</h6>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" placeholder="Job Position">
+                                <textarea type="text" placeholder="Tell us about yourself"></textarea>
+
+                                <div class="modal-btn-container">
+                                    <button class="modal-btn" type="submit"> <i class="fas fa-envelope"></i>
+                                        <span>SEND</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+
+
+
+
+    <!-- Main Section  Area -->
+    <main class="section-1">
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class=" col-md-12 banner-content pt-5">
+                    <h1 class="first-heading">We're here to help you</h1>
+                    <h2>We connect professionals with great companies. <br>
+                        Join our network today</h2>
+
+                    <div class="main-btn-container">
+
+                        <a href="#" class="main-btn main-btn-1" data-bs-toggle="modal" data-bs-target="#purchaseModal"
+                            data-backdrop="static" data-keyboard="false">LOOKING TO HIRE?</a>
+                        <a href="#" class="main-btn" data-bs-toggle="modal" data-bs-target="#purchaseModal"
+                            data-backdrop="static" data-keyboard="false">LOOKING TO WORK?</a>
+                    </div>
+
+                    <div class="search-box">
+                        <div class="input-case">
+                            <input type="text" placeholder="Job Title, Keywords, or Phrase">
+                            <input type="" placeholder="City, State, or Zip">
+                            <input type="text" name="select" list="select" placeholder="Select Sector">
+                            <datalist class="scroll" id="select">
+                                <option value="Administrator"></option>
+                                <option value="Carpet Cleaning"></option>
+                                <option value="Commercial"></option>
+                                <option value="Daily Cleaning"></option>
+                                <option value="Hotel/Restaurant"></option>
+                                <option value="Janitorial Service"></option>
+                                <option value="Night Cleaning"></option>
+                                <option value="Production"></option>
+                                <option value="Residential"></option>
+                                <option value="Skill Trade"></option>
+                                <option value="Transportation"></option>
+                                <option value="Weekly Cleaning"></option>
+                                <option value="Window Washing"></option>
+                            </datalist>
+                            <button class="search-icon"><i class="fas fa-search" type="submit"></i></button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Main Section  Area Ends-->
+
+    <!-- Our Specialists Area -->
+
+
+    <section class="section-2" id="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="left-area">
+                        <h1>OUR SPECIALISTS</h1>
+                        <p>Difference Staffing has the mastery over the accompanying regions to assist with
+                            associating top ability with our business. We provide cleaning services to the sectors
+                            below:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>01 CORPORATE/OFFICE</li>
+                                    <li>02 EDUCATION</li>
+                                    <li>03 ENTERTAINMENT</li>
+                                    <li>04 INDUSTRIAL/MANUFACTURING</li>
+                                    <li>05 MEDICAL</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>06 RESIDENTIAL</li>
+                                    <li>07 RESTAURANT/HOSPITALITY</li>
+                                    <li>08 VACATION RENTAL CLEANING</li>
+                                    <li>09 AIRBNB & STR CLEANING</li>
+                                    <li>10 FLEXIBLE SCHEDULING</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="right-area">
+                        <img class="img-fluid right-area-img" src="images/specialist.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Specialists Area Ends-->
+
+    <!-- Work-Area -->
+    <section class="section-3 ">
+        <div class="container">
+            <div class="belt">
+                <span>
+                    <h1 class="belt-title">What We Do</h1>
+                </span>
+            </div>
+            <div class="container">
+                <div class="upper-container">
+                    <div class="upper-container-img-area">
+                        <img class="img-fluid upper-img lift" src="images/do1.png" alt="" srcset="">
+                    </div>
+
+                    <div class="upper-container-text-area">
+                        <h3>FOR WORKERS</h3>
+                        <p>Our Professional agents can work together with you, and discuss opportunities with the
+                            best
+                            companies in the market. There are lot of opportunities that you can choose from. Join
+                            our
+                            growing network of professionals and today</p>
+                    </div>
+                </div>
+
+                <div class="lower-container">
+                    <div class="lower-container-text-area">
+                        <h3>FOR HIRERS</h3>
+                        <p>Our industry development experts will understand your needs and can connect you with
+                            professionals to help you get it done on a temporary or long-term basis. </p>
+                    </div>
+
+                    <div class="lower-container-img-area">
+                        <img class="img-fluid lift" src="images/what2.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Area Ends -->
+
+
+    <!-- Get in Touch Section -->
+    <section class="section-4">
+        <div class="big-container d-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="header-contact">
+                            <div class="horizontal-line">
+                                <!-- <hr> -->
+                            </div>
+                            <div class="contact-us">
+                                <span class="third-bracket">[</span> CONTACT US <span class="third-bracket">]</span>
+                            </div>
+                        </div>
+                        <div class="get-in-touch">
+                            <div>GET IN</div>
+                            <div>TOUCH</div>
+                        </div>
+
+                        <div class="contact-box-container">
+                            <div class="contact-with">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="texts">
+                                    <h5>Email Address</h5>
+                                    <h6>contact@differencestaffing.com</h6>
+                                </div>
+                            </div>
+                            <div class="contact-with">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="texts">
+                                    <h5>Call Us</h5>
+                                    <h6>+1-888-907-4053</h6>
+                                </div>
+
+                            </div>
+                            <div class="contact-with">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="texts">
+                                    <h5>Address</h5>
+                                    <h6>101 North Tryon Street Suite 112-1583 Charlotte, NC
+                                        28246</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-contact-container"> 
+                        <div class="form-for-contact">
+                            <div class="title">
+                                SEND MESSAGE
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6"><input type="text" placeholder="First Name"></div>
+                                <div class="col-md-6"><input type="text" placeholder="Last Name"></div>
+                                <div class="col-md-12"><input type="text" placeholder="Email Address"></div>
+                                <div class="col-md-12"><textarea type="text" placeholder="Message Here"></textarea>
+                                </div>
+                            </div>
+
+
+                            <a href="#" class="send-msg-btn">Send Message</a>
+
+
+
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get In Touch Section Ends -->
+
+    <!-- Footer Section Area  -->
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-5 col-sm-12 d-block">
+                    <div class="container-start p-4">
+                        <h5 class="footer-title">DIFFERENCE STAFFING</h5>
+                        <div class="contact-with ">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="texts">
+                                <h5>Email Address</h5>
+                                <h6>contact@differencestaffing.com</h6>
+                            </div>
+                        </div>
+                        <div class="contact-with ">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="texts">
+                                <h5>Call Us</h5>
+                                <h6>+1-888-907-4053</h6>
+                            </div>
+
+                        </div>
+                        <div class="contact-with">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="texts">
+                                <h5>Address</h5>
+                                <h6>101 North Tryon Street Suite 112-1583 Charlotte, NC
+                                    28246</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 footer-align ">
+                  <div class="row">
+                    <div class=" col-md-6 col-sm-12 footer-text d-block">
+                        <p class="text-secondary">Difference Staffing is one of the Newest based staffing
+                            organizations,
+                            & has something to prove.
+                            Consumer loyalty, along with reliable nature of administration is the establishment of
+                            our
+                            organization
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 footer-social-icons">
+                        <a href="#"><i class="fab fa-instagram "></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Section Ends -->
+
+
+
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
